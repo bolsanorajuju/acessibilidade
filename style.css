@@ -1,2 +1,8 @@
-
-
+body {
+  backgroud:linear-gradient (90 deg, pink, purple);
+  color: black;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
