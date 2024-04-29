@@ -1,13 +1,33 @@
-body = colocar como cor de fundo um degrade com 2 cores a escolher.
-            colocar todos os textos e imagens centralizados.
+body {
+  background: linear-gradient (to bottom, #FFFFFF, #E0E0E0);
+  color: #000000;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
-h1 = tamanho de letra 30
-        cor da letra black
-       escolher um estilo de letra
+h1{ 
+  color: #333333;
+  font-size: 30px;
+}
 
-h2 = tamanho de letra 30
-        cor da letra black
-       escolher um estilo de letra
+h2{
+  text-align: left;
+  color: #555555;
+  font-size: 25px;
+}
 
-a= cor azul
-     tirar a linha sobrescrita nos links.
+p{
+  text-align: justify;
+  font-size:20px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+  font-size: 25px;
+}
