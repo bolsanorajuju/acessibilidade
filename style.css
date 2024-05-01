@@ -11,14 +11,6 @@ body {
     text-decoration: none;
 }
 
-/* Fotos e textos */
-p {
-    color: black;
-    font-size: 16pt;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center; 
-}
-
 /* H1 */
 h1 {
     background-image: linear-gradient(270deg, red, yellow );
@@ -31,19 +23,19 @@ h1 {
 
 /* H2 */
 h2 {
-    text-align: left;
-    color: black; /* cinza médio */
-    font-family: Arial, sans-serif;
-    font-size: 25px;
+    color: black;
+    font-size: 20pt;
+    font-family:Arial;
+    text-align: left; 
+    text-align: center;  
 }
 
 /* Parágrafo */
 p {
-    text-align: left;
-    text-align: justify;
-    color: black; /* preto */
-    font-family: Arial, sans-serif;
-    font-size: 20px;
+    color: black;
+    font-size: 16pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center; 
 }
 
 /* Fotos */
@@ -53,8 +45,10 @@ img {
 
 /* Links */
 a {
-    color: blue;
-    text-decoration: none; /* sem sublinhado */
-    font-size: 25px;
+     color: blue;
+    font-size: 20pt;
+    font-family:Arial;
+    text-align: center;
+    text-decoration: none;
 }
 
