@@ -5,7 +5,10 @@
 body {
     background: linear-gradient(to bottom, pink, purple); /* degrade em duas cores */
     color: black; /* cor do texto */
+    font-size: 12pt;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center; /* centralizar texto */
+    text-decoration: none;
 }
 
 /* Fotos e textos */
