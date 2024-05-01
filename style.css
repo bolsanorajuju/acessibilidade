@@ -3,8 +3,8 @@
 
 /* BODY */
 body {
-    background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* degrade em duas cores */
-    color: #000000; /* cor do texto */
+    background: linear-gradient(to bottom, pink, purple); /* degrade em duas cores */
+    color: black; /* cor do texto */
     text-align: center; /* centralizar texto */
 }
 
@@ -17,7 +17,7 @@ img, p {
 /* H1 */
 h1 {
     text-align: center;
-    color: #555555; /* cinza escuro */
+    color: black; /* cinza escuro */
     font-family: Arial, sans-serif;
     font-size: 30px;
 }
@@ -25,7 +25,7 @@ h1 {
 /* H2 */
 h2 {
     text-align: left;
-    color: #777777; /* cinza médio */
+    color: black; /* cinza médio */
     font-family: Arial, sans-serif;
     font-size: 25px;
 }
@@ -34,7 +34,7 @@ h2 {
 p {
     text-align: left;
     text-align: justify;
-    color: #000000; /* preto */
+    color: black; /* preto */
     font-family: Arial, sans-serif;
     font-size: 20px;
 }
