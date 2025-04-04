@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Cor do Texto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn-contraste {
+            background-color: #000;
+            color: #fff;
+        }
+        .btn-alto-contraste {
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
 
+    <h1>Teste de Acessibilidade</h1>
+    <p id="texto">Este é um exemplo de texto com cor padrão.</p>
+
+    <button class="btn-contraste" onclick="mudarCor('#000', '#fff')">Modo Escuro</button>
+    <button class="btn-alto-contraste" onclick="mudarCor('yellow', 'black')">Alto Contraste</button>
+    <button onclick="mudarCor('#333', '#f4f4f4')">Modo Padrão</button>
+
+    <script>
+        function mudarCor(corTexto, corFundo) {
+            document.body.style.backgroundColor = corFundo;
+            document.getElementById('texto').style.color = corTexto;
+        }
+    </script>
+
+</body>
+</html>
